@@ -1,3 +1,11 @@
-h1 {
-    color: chartreuse;
+li {
+    color: blue;
+}
+
+.foo {
+    color: red;
+}
+
+#bar {
+    color: palevioletred;
 }
