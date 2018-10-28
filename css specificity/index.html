@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 100%;
+        }
+        
+        p {
+            width: 80%;
+            height: 50%;
+            border-style: dashed;
+        }
+        
+        h1 {
+            width: 40vw;
+            height: 30vh;
+            border-style: dotted;
+        }
+        
+        div {
+            width: 60vw;
+            height: 100vh;
+            border-style: groove;
+        }
+        
+        .classy {
+            width: 60vw;
+            height: 60vh;
+            border-style: solid;
+        }
+        /* 110 */
+        
+        p:first-child {
+            background-color: pink;
+        }
+        /* 10 */
+        
+        p:hover {
+            color: red;
+        }
+        /* 10 */
+        
+        h1 {
+            color: blue;
+        }
+        /* 110 */
+        
+        h1::first-letter {
+            font-size: 70px;
+        }
+        
+        div {
+            background-color: slategray;
+        }
+        
+        div #divId {
+            background: lightcoral;
+            flex: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis natus maxime et quidem? Laborum, unde ad officiis ullam quidem neque beatae non, pariatur aspernatur ratione deserunt alias quis. Perferendis, minus?</p>
+    </div>
+    <div>
+        <h1>Lorem, ipsum dolor.</h1>
+    </div>
+    <div id="divID">
+        <p class="classy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum provident officiis illo impedit quaerat nulla temporibus dolores eaque nesciunt! Consequuntur.</p>
+        <p class="classy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, exercitationem.</p>
+        <p class="classy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deserunt ratione amet voluptate quam similique nam rem, at quaerat tempore ipsa nobis, consectetur accusantium facere labore ea adipisci corrupti neque.</p>
+    </div>
+    <div id="idee">
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+
+</body>
+
+</html>
