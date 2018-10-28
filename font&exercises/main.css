@@ -1,0 +1,37 @@
+h1 {
+    text-shadow: 5px 5px 20px black;
+}
+
+#second {
+    font-family: 'Times New Roman', Times, serif
+}
+
+#first {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#third {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#fourth {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+#sentence {
+    text-indent: 1em;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration-line: line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
