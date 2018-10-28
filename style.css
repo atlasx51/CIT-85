@@ -28,3 +28,34 @@ a:hover {
 a:active {
     color: yellow;
 }
+
+
+/* nth child */
+
+li:first-child {
+    color: firebrick;
+}
+
+li:last-child {
+    color: green;
+}
+
+li:nth-child(even) {
+    color: yellow;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(3) {
+    color: plum;
+}
+
+li:nth-child(3n+4) {
+    color: blue;
+}
+
+article:only-child {
+    color: red;
+}
