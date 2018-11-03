@@ -1,0 +1,21 @@
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+    margin: 0 auto;
+    width: 60%;
+    border: 5px solid black;
+}
+
+img {
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 10px ridge gold;
+    display: block;
+}
+
+h1 {
+    color: blue;
+}
