@@ -1,0 +1,13 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: #ffff;
+}
+
+#one {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: indianred;
+}
