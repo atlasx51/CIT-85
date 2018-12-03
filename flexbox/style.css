@@ -1,0 +1,41 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+.x1,
+.x2,
+.x3,
+.x4,
+.x5 {
+    width: 100%;
+    min-height: 150px;
+}
+
+.x1 {
+    background-color: lightblue;
+}
+
+.x2 {
+    background-color: skyblue;
+}
+
+.x3 {
+    background-color: aliceblue;
+}
+
+.x4 {
+    background-color: cornflowerblue;
+}
+
+.x5 {
+    background-color: midnightblue;
+}
