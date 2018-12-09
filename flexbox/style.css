@@ -1,4 +1,4 @@
-div {
+/* div {
     box-sizing: border-box;
 }
 
@@ -38,4 +38,32 @@ body {
 
 .x5 {
     background-color: midnightblue;
+} */
+
+body {
+    display: flex;
+}
+
+
+/* assign #2 */
+
+#flex1 {
+    height: 100px;
+    width: 400px;
+    flex-grow: 1;
+    background-color: #8CB3B0;
+}
+
+#flex2 {
+    height: 100px;
+    width: 400px;
+    flex-grow: 2;
+    background-color: #085C67;
+}
+
+#flex3 {
+    height: 100px;
+    width: 400px;
+    flex-grow: 1;
+    background-color: #163F5B;
 }
