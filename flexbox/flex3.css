@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex1 {
+    height: 80px;
+    width: 110px;
+    flex-grow: 1;
+    background-color: #ff4642;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.flex2 {
+    height: 100px;
+    width: 50px;
+    flex-grow: 2;
+    background-color: #f5e72c;
+}
