@@ -1,0 +1,15 @@
+.circle {
+    height: 125px;
+    width: 125px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.9s;
+}
+
+.circle:hover {
+    background-color: tomato;
+}
