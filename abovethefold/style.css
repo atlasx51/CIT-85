@@ -1,0 +1,22 @@
+html,
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 10px solid slategray;
+    background-image: url("stadium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 4rem;
+}
