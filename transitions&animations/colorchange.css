@@ -1,0 +1,26 @@
+.circle {
+    height: 125px;
+    width: 125px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    animation: colorchange 10s infinite;
+}
+
+@keyframes colorchange {
+    0% {
+        background: red;
+    }
+    25% {
+        background: blue;
+    }
+    50% {
+        background: fuchsia;
+    }
+    75% {
+        background: slateblue;
+    }
+    100% {
+        background: red;
+    }
+}
