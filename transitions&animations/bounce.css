@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circle {
+    height: 125px;
+    width: 125px;
+    background-color: #bbb;
+    border-radius: 50%;
+    position: relative;
+    animation-name: chcolor;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes chcolor {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 66%;
+    }
+}
