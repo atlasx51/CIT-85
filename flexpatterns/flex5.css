@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+
+/* .a,
+.b,
+.c,
+.d {
+    width: 100%;
+    min-height: 150px;
+} */
+
+.a {
+    background-color: #0062d2;
+    width: 25%;
+    min-height: 150px;
+}
+
+.b {
+    background-color: #0062d2;
+    width: 75%;
+    min-height: 200px;
+}
+
+.c {
+    background-color: #b4d2f7;
+    width: 100%;
+    min-height: 150px;
+}
+
+.d {
+    width: 100%;
+    min-height: 150px;
+    background-color: #d5dfef;
+}
