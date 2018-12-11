@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.one {
+    width: 100%;
+    min-height: 150px;
+    background-color: chocolate;
+}
+
+.two {
+    width: 65%;
+    min-height: 150px;
+    background-color: tomato;
+}
+
+.three {
+    width: 35%;
+    min-height: 150px;
+    background-color: indianred;
+}
+
+.four {
+    width: 45%;
+    min-height: 150px;
+    background-color: thistle;
+}
+
+.five {
+    width: 55%;
+    min-height: 150px;
+    background-color: papayawhip;
+}
